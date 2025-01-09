@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Monster_Search.git/static/css/main.bde88e64.css",
-    "main.js": "/Monster_Search.git/static/js/main.5327c10b.js",
-    "static/js/156.19542de1.chunk.js": "/Monster_Search.git/static/js/156.19542de1.chunk.js",
-    "index.html": "/Monster_Search.git/index.html",
-    "main.bde88e64.css.map": "/Monster_Search.git/static/css/main.bde88e64.css.map",
-    "main.5327c10b.js.map": "/Monster_Search.git/static/js/main.5327c10b.js.map",
-    "156.19542de1.chunk.js.map": "/Monster_Search.git/static/js/156.19542de1.chunk.js.map"
+    "main.css": "/Monster_Search/static/css/main.bde88e64.css",
+    "main.js": "/Monster_Search/static/js/main.3bfc7f85.js",
+    "static/js/156.19542de1.chunk.js": "/Monster_Search/static/js/156.19542de1.chunk.js",
+    "index.html": "/Monster_Search/index.html",
+    "main.bde88e64.css.map": "/Monster_Search/static/css/main.bde88e64.css.map",
+    "main.3bfc7f85.js.map": "/Monster_Search/static/js/main.3bfc7f85.js.map",
+    "156.19542de1.chunk.js.map": "/Monster_Search/static/js/156.19542de1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bde88e64.css",
-    "static/js/main.5327c10b.js"
+    "static/js/main.3bfc7f85.js"
   ]
 }
