@@ -1,10 +1,47 @@
+/* Existing styles for search input */
 .search {
-    /* -webkit-appearance:p; */
-    border: none;
-    outline: none;
-    padding: 10px;
-    width: 150px;
-    line-height: 30px;
-    margin-bottom: 30px;
-  }
-  
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 175px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  border: 3px solid #000000;
+  border-radius: 40px;
+  background: none;
+  font-size: 12px;
+  height: 40px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:medium;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: 0.2s all ease-in;
+  -moz-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+/* Focus styles for search input */
+.search:focus {
+  width: 200px;
+  padding: 0 20px;
+  font-weight: 150;
+  cursor: auto;
+}
+
+/* Interaction styles for close button */
+.search:focus + .close .front {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.search:focus + .close .back {
+  right: 24px;
+  top: 13px;
+}
